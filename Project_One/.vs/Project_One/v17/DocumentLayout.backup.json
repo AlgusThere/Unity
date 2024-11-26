@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\Project_One\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E7D8130B-2327-4D23-16B3-D1891FE2EFCC}|Assembly-CSharp.csproj|c:\\users\\pc\\documents\\github projects\\unity\\project_one\\assets\\ders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E7D8130B-2327-4D23-16B3-D1891FE2EFCC}|Assembly-CSharp.csproj|solutionrelative:assets\\ders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E7D8130B-2327-4D23-16B3-D1891FE2EFCC}|Assembly-CSharp.csproj|c:\\users\\pc\\documents\\github projects\\unity\\project_one\\assets\\scripts\\ders_csharp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D8130B-2327-4D23-16B3-D1891FE2EFCC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ders_csharp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7D8130B-2327-4D23-16B3-D1891FE2EFCC}|Assembly-CSharp.csproj|c:\\users\\pc\\documents\\github projects\\unity\\project_one\\assets\\scripts\\fonksiyonlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D8130B-2327-4D23-16B3-D1891FE2EFCC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fonksiyonlar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7D8130B-2327-4D23-16B3-D1891FE2EFCC}|Assembly-CSharp.csproj|C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\Project_One\\assets\\scripts\\ders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7D8130B-2327-4D23-16B3-D1891FE2EFCC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,15 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Ders.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\Project_One\\Assets\\Ders.cs",
-              "RelativeDocumentMoniker": "Assets\\Ders.cs",
-              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\Project_One\\Assets\\Ders.cs",
-              "RelativeToolTip": "Assets\\Ders.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
+              "Title": "Ders_Csharp.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\Project_One\\Assets\\Scripts\\Ders_Csharp.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Ders_Csharp.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\Project_One\\Assets\\Scripts\\Ders_Csharp.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Ders_Csharp.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwA8AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T16:54:48.534Z",
+              "WhenOpened": "2024-11-26T11:13:46.361Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Fonksiyonlar.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\Project_One\\Assets\\Scripts\\Fonksiyonlar.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Fonksiyonlar.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\Project_One\\Assets\\Scripts\\Fonksiyonlar.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Fonksiyonlar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T10:57:02.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Ders.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\Project_One\\Assets\\Scripts\\Ders.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Ders.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\Project_One\\Assets\\Scripts\\Ders.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Ders.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T16:56:33.628Z"
             }
           ]
         }

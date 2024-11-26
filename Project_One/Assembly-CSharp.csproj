@@ -62,6 +62,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Ders.cs" />
+    <Compile Include="Assets\Scripts\Ders_Csharp.cs" />
+    <Compile Include="Assets\Scripts\Fonksiyonlar.cs" />
+    <Compile Include="Assets\Scripts\Kutuphane.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

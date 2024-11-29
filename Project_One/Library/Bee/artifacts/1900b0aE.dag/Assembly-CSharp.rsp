@@ -404,7 +404,9 @@
 "Assets/Scripts/Ders.cs"
 "Assets/Scripts/Ders_Csharp.cs"
 "Assets/Scripts/Fonksiyonlar.cs"
+"Assets/Scripts/Kayit.cs"
 "Assets/Scripts/Kutuphane.cs"
+"Assets/Scripts/Zamanlamalar.cs"
 -langversion:9.0
 /deterministic
 /optimize+

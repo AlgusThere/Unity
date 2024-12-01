@@ -8,6 +8,22 @@
     "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\Project_One\\Packages\\packages-lock.json"
   ],
   "outputs": {
+    "com.unity.2d.sprite@1.0.0": {
+      "name": "com.unity.2d.sprite",
+      "resolvedPath": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\Project_One\\Library\\PackageCache\\com.unity.2d.sprite",
+      "fingerprint": "0e70656ef5df5c7161c8cfc6f24ab0dde0dc637e",
+      "editorCompatibility": "2019.2.0a1",
+      "version": "1.0.0",
+      "source": "builtin"
+    },
+    "com.unity.ai.navigation@2.0.5": {
+      "name": "com.unity.ai.navigation",
+      "resolvedPath": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\Project_One\\Library\\PackageCache\\com.unity.ai.navigation",
+      "fingerprint": "9f76b145f0a8dd734ff2a4877f7f7edb83b7f62c",
+      "editorCompatibility": "2023.2.0a18",
+      "version": "2.0.5",
+      "source": "registry"
+    },
     "com.unity.collab-proxy@2.5.2": {
       "name": "com.unity.collab-proxy",
       "resolvedPath": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\Project_One\\Library\\PackageCache\\com.unity.collab-proxy",

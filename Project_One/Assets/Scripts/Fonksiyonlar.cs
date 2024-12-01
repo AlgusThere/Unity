@@ -9,7 +9,7 @@ public class Fonksiyonlar : MonoBehaviour
 
     private void Start()
     {
-        
+        EkBilgiler.instance.mesafe = 30;
     }
 
     private void Update()

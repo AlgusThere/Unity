@@ -179,7 +179,8 @@ public class CarController : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Finish"))
         {
-
+            GameManager.instance.finishPanel.SetActive(true);
+            Time.timeScale = 0;
         }
     }
 }

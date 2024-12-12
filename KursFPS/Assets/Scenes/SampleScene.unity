@@ -303,6 +303,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6a53b9aea42ee245bd5c14522947239, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mouseSensitivity: 1500
+  playerBody: {fileID: 1751124511}
 --- !u!1 &410087039
 GameObject:
   m_ObjectHideFlags: 0
@@ -1157,21 +1159,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69d9c1f3eb1b28f4f9083e62fa1f361a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  controller: {fileID: 0}
+  controller: {fileID: 1751124516}
   horizontal: 0
   vertical: 0
-  playerSpeed: 5
-  runSpeed: 10
-  firstSpeed: 0
+  PlayerSpeed: 5
+  RunSpeed: 10
+  FirstSpeed: 5
   gravity: -9.81
   jumpHeight: 2
-  groundCheck: {fileID: 0}
+  groundCheck: {fileID: 264263087}
   groundDistance: 0.4
   groundMask:
     serializedVersion: 2
-    m_Bits: 0
-  originalHeight: 0
-  crouchHeight: 0
+    m_Bits: 64
+  originalHeight: 1.25
+  crouchHeight: 2
   Egildi: 0
   Kalkti: 1
 --- !u!1 &1911991926

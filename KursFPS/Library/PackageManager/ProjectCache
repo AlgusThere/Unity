@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638695262478855206
+      ticks: 638696245331571746
     m_Hash: 3781009492
   m_LockFileStatus:
     m_FilePath: C:/Users/pc/Documents/GitHub Projects/Unity/KursFPS/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638695262478905184
+      ticks: 638696245331746424
     m_Hash: 3827108170
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}

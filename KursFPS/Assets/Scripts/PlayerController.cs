@@ -10,9 +10,9 @@ public class PlayerController : MonoBehaviourPunCallbacks
     public float horizontal;
     public float vertical;
 
-    public float playerSpeed = 5f;
-    public float runSpeed = 10f;
-    public float firstSpeed;
+    public float PlayerSpeed = 5f;
+    public float RunSpeed = 10f;
+    public float FirstSpeed = 5f;
 
     public float gravity = -9.81f;
     public float jumpHeight = 2f;
@@ -30,28 +30,50 @@ public class PlayerController : MonoBehaviourPunCallbacks
     Vector3 velocity;
     bool isGrounded;
 
+    PhotonView view;
+    void Start()
+    {
+        view = GetComponent<PhotonView>();
+    }
+
+
+    void Update()
+    {
+        //if (view.IsMine)
+        //{
+        //    Hareket();
+        //}
+        //else
+        //{
+        //    //benim olmayan iþlemler
+        //}
+
+        Hareket();
+
+    }
+
     void Hareket()
     {
-        if(Input.GetKey(KeyCode.LeftShift))
+        if (Input.GetKey(KeyCode.LeftShift))
         {
-            if(Egildi == true)
+            if (Egildi == true)
             {
-                playerSpeed = 3f;
-                firstSpeed = 3f;
+                PlayerSpeed = 3f;
+                FirstSpeed = 3f;
             }
             else
             {
-                playerSpeed = runSpeed;
+                PlayerSpeed = RunSpeed;
             }
         }
         else
         {
-            playerSpeed = firstSpeed;
+            PlayerSpeed = FirstSpeed;
         }
 
-        isGrounded = Physics.CheckSphere(groundCheck.position,groundDistance,groundMask);
-        
-        if(isGrounded && velocity.y < 0)
+        isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+
+        if (isGrounded && velocity.y < 0)
         {
             velocity.y = -2f;
         }
@@ -60,6 +82,35 @@ public class PlayerController : MonoBehaviourPunCallbacks
         vertical = Input.GetAxis("Vertical");
 
         Vector3 move = transform.right * horizontal + transform.forward * vertical;
-        controller.Move(move * playerSpeed * Time.deltaTime);
+        controller.Move(move * PlayerSpeed * Time.deltaTime);
+
+        if (Input.GetButtonDown("Jump") && isGrounded)
+        {
+            velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+        }
+
+        velocity.y += gravity * Time.deltaTime;
+
+        controller.Move(velocity * Time.deltaTime);
+
+
+        if (Input.GetKey(KeyCode.LeftControl))
+        {
+            controller.height = Mathf.Lerp(controller.height, crouchHeight, 3f * Time.deltaTime);
+            PlayerSpeed = 3f;
+            FirstSpeed = 3f;
+            jumpHeight = 0f;
+            Egildi = true;
+            Kalkti = false;
+        }
+        else
+        {
+            controller.height = Mathf.Lerp(controller.height, originalHeight, 3f * Time.deltaTime);
+            PlayerSpeed = 5f;
+            FirstSpeed = 5f;
+            jumpHeight = 2f;
+            Egildi = false;
+            Kalkti = true;
+        }
     }
 }

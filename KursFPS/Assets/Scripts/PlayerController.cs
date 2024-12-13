@@ -31,9 +31,15 @@ public class PlayerController : MonoBehaviourPunCallbacks
     bool isGrounded;
 
     PhotonView view;
+
+    public GameObject[] elimdekiSilahlar;
+    public GameObject[] bedendekiSilahlar;
+
     void Start()
     {
         view = GetComponent<PhotonView>();
+
+        elimdekiSilahlar = GameManager.instance.elimdekiSilahlar;
     }
 
 
@@ -42,6 +48,19 @@ public class PlayerController : MonoBehaviourPunCallbacks
         if (view.IsMine)
         {
             Hareket();
+
+            if (Input.GetKeyDown(KeyCode.Alpha1) && elimdekiSilahlar[0].activeInHierarchy == false)
+            {
+                elimdekiSilahlar[1].SetActive(false);
+
+                elimdekiSilahlar[0].SetActive(true);
+            }
+            else if (Input.GetKeyDown(KeyCode.Alpha2) && elimdekiSilahlar[1].activeInHierarchy == false)
+            {
+                elimdekiSilahlar[0].SetActive(false);
+
+                elimdekiSilahlar[1].SetActive(true);
+            }
         }
         else
         {

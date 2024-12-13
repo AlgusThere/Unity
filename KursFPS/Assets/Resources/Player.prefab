@@ -117,6 +117,8 @@ MonoBehaviour:
   crouchHeight: 2
   Egildi: 0
   Kalkti: 1
+  elimdekiSilahlar: []
+  bedendekiSilahlar: []
 --- !u!143 &5744583452445312715
 CharacterController:
   m_ObjectHideFlags: 0

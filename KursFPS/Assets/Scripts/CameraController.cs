@@ -28,7 +28,7 @@ public class CameraController : MonoBehaviour
         MouseHareket();
     }
 
-    public IEnumerator playerBody›nstance()
+    public IEnumerator playerBodyInstance()
     {
         yield return new WaitForSeconds(1);
         playerBody = GameObject.FindGameObjectWithTag("Player").gameObject;

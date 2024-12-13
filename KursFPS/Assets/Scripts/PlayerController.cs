@@ -39,16 +39,16 @@ public class PlayerController : MonoBehaviourPunCallbacks
 
     void Update()
     {
-        //if (view.IsMine)
-        //{
-        //    Hareket();
-        //}
-        //else
-        //{
-        //    //benim olmayan iþlemler
-        //}
+        if (view.IsMine)
+        {
+            Hareket();
+        }
+        else
+        {
+            //benim olmayan iþlemler
+        }
 
-        Hareket();
+        //Hareket();
 
     }
 

@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{11FE4586-5823-79C4-5577-4CCBB879F94D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11FE4586-5823-79C4-5577-4CCBB879F94D}|Assembly-CSharp.csproj|c:\\users\\pc\\documents\\github projects\\unity\\kursfps\\assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{11FE4586-5823-79C4-5577-4CCBB879F94D}|Assembly-CSharp.csproj|C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\KursFPS\\assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11FE4586-5823-79C4-5577-4CCBB879F94D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Weapon.cs",
               "ToolTip": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\KursFPS\\Assets\\Scripts\\Weapon.cs",
               "RelativeToolTip": "Assets\\Scripts\\Weapon.cs",
-              "ViewState": "AgIAAI8AAAAAAAAAAAAAAJsAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAAwGYAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-14T16:57:20.292Z",
               "EditorCaption": ""
@@ -59,8 +59,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Bullet.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T16:52:18.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T16:52:18.841Z"
             },
             {
               "$type": "Document",

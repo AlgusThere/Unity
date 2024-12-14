@@ -2,7 +2,9 @@ using Photon.Pun;
 using Photon.Realtime;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -12,6 +14,10 @@ public class GameManager : MonoBehaviour
 
     public GameObject[] elimdekiSilahlar;
     public GameObject[] bedendekiSilahlar;
+
+    public Slider slider;
+    public GameObject deadPanel;
+    public TextMeshProUGUI yenidenDogmaText;
 
     public static GameManager instance = null;
 

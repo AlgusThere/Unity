@@ -30,7 +30,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 501878544148483315}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.5028184, z: 0, w: 0.86439216}
+  m_LocalRotation: {x: 0, y: -0.91282773, z: 0, w: 0.40834498}
   m_LocalPosition: {x: 0, y: 1.44, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -119,6 +119,11 @@ MonoBehaviour:
   Kalkti: 1
   elimdekiSilahlar: []
   bedendekiSilahlar: []
+  saglik: 100
+  yenidenDogmaSuresi: 5
+  yenidenCanlanmaText: {fileID: 0}
+  slider: {fileID: 0}
+  deadPanel: {fileID: 0}
 --- !u!143 &5744583452445312715
 CharacterController:
   m_ObjectHideFlags: 0

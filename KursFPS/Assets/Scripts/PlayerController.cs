@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
+using UnityEngine.UI;
+using TMPro;
 
 public class PlayerController : MonoBehaviourPunCallbacks
 {
@@ -35,11 +37,27 @@ public class PlayerController : MonoBehaviourPunCallbacks
     public GameObject[] elimdekiSilahlar;
     public GameObject[] bedendekiSilahlar;
 
+    public float saglik = 100f;
+
+    public float yenidenDogmaSuresi = 5;
+    public TextMeshProUGUI yenidenCanlanmaText;
+    public Slider slider;
+
+    public GameObject deadPanel;
+
     void Start()
     {
         view = GetComponent<PhotonView>();
-
+        saglik = 100;
+        slider = GameManager.instance.slider;
+        deadPanel = GameManager.instance.deadPanel;
+        yenidenCanlanmaText = GameManager.instance.yenidenDogmaText;
         elimdekiSilahlar = GameManager.instance.elimdekiSilahlar;
+
+        if (!view.IsMine)
+        {
+            gameObject.tag = "Enemy";
+        }
     }
 
 
@@ -48,7 +66,7 @@ public class PlayerController : MonoBehaviourPunCallbacks
         if (view.IsMine)
         {
             Hareket();
-
+            slider.value = saglik;
             if (Input.GetKeyDown(KeyCode.Alpha1) && elimdekiSilahlar[0].activeInHierarchy == false)
             {
                 elimdekiSilahlar[1].SetActive(false);
@@ -60,6 +78,30 @@ public class PlayerController : MonoBehaviourPunCallbacks
                 elimdekiSilahlar[0].SetActive(false);
 
                 elimdekiSilahlar[1].SetActive(true);
+            }
+
+            if (saglik <= 0)
+            {
+                view.RPC("meshPasifEt", RpcTarget.All);
+
+                if (yenidenDogmaSuresi >= 0)
+                {
+                    yenidenDogmaSuresi -= Time.deltaTime;
+                    yenidenCanlanmaText.text = "Revival Time = " + ((int)yenidenDogmaSuresi).ToString();
+                }
+                else
+                {
+                    gameObject.GetComponent<CharacterController>().enabled = true;
+
+                    view.RPC("meshAktifEt", RpcTarget.All);
+                    float x = Random.Range(-10, 10);
+                    float z = Random.Range(-10, 10);
+                    gameObject.transform.position = new Vector3(x, 8, z);
+                    deadPanel.SetActive(false);
+                    yenidenDogmaSuresi = 5;
+                    saglik = 100;
+                    slider.value = slider.maxValue;
+                }
             }
         }
         else
@@ -131,5 +173,43 @@ public class PlayerController : MonoBehaviourPunCallbacks
             Egildi = false;
             Kalkti = true;
         }
+    }
+
+    [PunRPC]
+    void darbever(int darbegucu)
+    {
+        saglik -= darbegucu;
+
+        if (saglik <= 0)
+        {
+            if (view.IsMine)
+            {
+                deadPanel.SetActive(true);
+
+                for (int i = 0; i < GameManager.instance.elimdekiSilahlar.Length; i++)
+                {
+                    GameManager.instance.elimdekiSilahlar[i].GetComponent<Weapon>().toplamMermiSayisi = GameManager.instance.elimdekiSilahlar[i].GetComponent<Weapon>().maksimumMermiSayisi;
+                    GameManager.instance.elimdekiSilahlar[i].GetComponent<Weapon>().toplamMermiText.text = GameManager.instance.elimdekiSilahlar[i].GetComponent<Weapon>().maksimumMermiSayisi.ToString();
+
+                    GameManager.instance.elimdekiSilahlar[i].GetComponent<Weapon>().sarjorKapasitesi = GameManager.instance.elimdekiSilahlar[i].GetComponent<Weapon>().maksimumSarjorSayisi;
+                    GameManager.instance.elimdekiSilahlar[i].GetComponent<Weapon>().kalanMermiText.text = GameManager.instance.elimdekiSilahlar[i].GetComponent<Weapon>().maksimumSarjorSayisi.ToString();
+                }
+            }
+        }
+    }
+
+    [PunRPC]
+
+    void meshAktifEt()
+    {
+        gameObject.GetComponent<MeshRenderer>().enabled = true;
+        saglik = 100;
+    }
+
+    [PunRPC]
+
+    void meshPasifEt()
+    {
+        gameObject.GetComponent<MeshRenderer>().enabled = false;
     }
 }

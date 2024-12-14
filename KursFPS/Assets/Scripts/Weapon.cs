@@ -23,8 +23,8 @@ public class Weapon : MonoBehaviour
     //public ParticleSystem muzzleEfekti;
     //public ParticleSystem zeminEfekti;
 
-    public int toplamMermiSayisi = 42;
-    public int sarjorKapasitesi = 7;
+    public int toplamMermiSayisi = 90;
+    public int sarjorKapasitesi = 30;
     int kalanMermi;
     public TextMeshProUGUI toplamMermiText;
     public TextMeshProUGUI kalanMermiText;
@@ -61,7 +61,7 @@ public class Weapon : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.R) && isReload)
         {
             ReloadKontrol();
-            animatorum.SetBool("Reload", true);
+
 
             if(toplamMermiSayisi == 0 || sarjorKapasitesi == kalanMermi)
             {
@@ -120,6 +120,7 @@ public class Weapon : MonoBehaviour
         if(kalanMermi < sarjorKapasitesi && toplamMermiSayisi != 0)
         {
             reloadVar = true;
+            animatorum.SetBool("Reload", true);
         }
     }
 
@@ -127,7 +128,7 @@ public class Weapon : MonoBehaviour
     {
         if(kalanMermi == 0)
         {
-            if(toplamMermiSayisi <= kalanMermi)
+            if(toplamMermiSayisi <= sarjorKapasitesi)
             {
                 kalanMermi = toplamMermiSayisi;
                 toplamMermiSayisi = 0;

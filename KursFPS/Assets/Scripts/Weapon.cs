@@ -19,7 +19,7 @@ public class Weapon : MonoBehaviour
     public float disaridanAtesEtmeSikligi;
     public int darbeGucu;
     public bool atesEdebilirmi;
-    //public ParticleSystem kanEfekti;
+    public ParticleSystem kanEfekti;
     //public ParticleSystem muzzleEfekti;
     //public ParticleSystem zeminEfekti;
 
@@ -62,7 +62,6 @@ public class Weapon : MonoBehaviour
         {
             ReloadKontrol();
 
-
             if(toplamMermiSayisi == 0 || sarjorKapasitesi == kalanMermi)
             {
                 isShot = true;
@@ -76,11 +75,15 @@ public class Weapon : MonoBehaviour
 
             reloadCoroutine = StartCoroutine("endAnimation");
         }
+        if(Input.GetKey(KeyCode.Alpha1))
+        {
+            animatorum.SetTrigger("EleAlma");
+        }
     }
 
     IEnumerator endAnimation()
     {
-        yield return new WaitForSeconds(1F);
+        yield return new WaitForSeconds(1f);
         animatorum.SetBool("Reload", false);
         isShot = true;
         isReload = true;
@@ -99,10 +102,11 @@ public class Weapon : MonoBehaviour
         {
             if(hit.transform.gameObject.CompareTag("Enemy"))
             {
-                //Instantiate(kanEfekti, hit.point, Quaternion.LookRotation(hit.normal));
-                if(hit.collider.gameObject.GetComponent<PlayerController>().saglik > 0)
+
+                if (hit.collider.gameObject.GetComponent<PlayerController>().saglik > 0)
                 {
                     hit.collider.gameObject.GetComponent<PhotonView>().RPC("darbever", RpcTarget.All, darbeGucu);
+                    Instantiate(kanEfekti, hit.point, Quaternion.LookRotation(hit.normal));
                 }
             }
 

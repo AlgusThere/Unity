@@ -397,6 +397,7 @@
 "Assets/Scripts/CameraController.cs"
 "Assets/Scripts/GameManager.cs"
 "Assets/Scripts/Onlines.cs"
+"Assets/Scripts/ParticleDestroy.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/Scripts/Weapon.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"

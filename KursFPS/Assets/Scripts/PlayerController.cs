@@ -43,6 +43,8 @@ public class PlayerController : MonoBehaviourPunCallbacks
     public TextMeshProUGUI yenidenCanlanmaText;
     public Slider slider;
 
+    public GameObject hand;
+
     public GameObject deadPanel;
 
     void Start()
@@ -71,13 +73,21 @@ public class PlayerController : MonoBehaviourPunCallbacks
             {
                 elimdekiSilahlar[1].SetActive(false);
 
+                //bedendekiSilahlar[1].SetActive(false);
+
+                view.RPC("bedendekiSilahlariAktar", RpcTarget.All);
+
                 elimdekiSilahlar[0].SetActive(true);
             }
             else if (Input.GetKeyDown(KeyCode.Alpha2) && elimdekiSilahlar[1].activeInHierarchy == false)
             {
                 elimdekiSilahlar[0].SetActive(false);
+                //bedendekiSilahlar[0].SetActive(false);
+
+                view.RPC("bedendekiSilahlariAktar", RpcTarget.All);
 
                 elimdekiSilahlar[1].SetActive(true);
+                //bedendekiSilahlar[1].SetActive(true);
             }
 
             if (saglik <= 0)
@@ -111,6 +121,45 @@ public class PlayerController : MonoBehaviourPunCallbacks
 
         //Hareket();
 
+    }
+
+    [PunRPC]
+
+    public void bedendekiSilahlariAktar()
+    {
+        if (Input.GetKeyDown(KeyCode.Alpha1) && elimdekiSilahlar[0].activeInHierarchy == false)
+        {
+            //bedendekiSilahlar[1].SetActive(false);
+
+            //bedendekiSilahlar[0].SetActive(true);
+
+            GameObject obje = PhotonNetwork.Instantiate(prefabName: "AA12", position: hand.transform.position, hand.transform.rotation, group: 0, data: null);
+            obje.transform.parent = hand.transform;
+
+            bedendekiSilahlar[0] = obje;
+
+            if (bedendekiSilahlar[1] != null)
+            {
+                Destroy(bedendekiSilahlar[1]);
+            }
+        }
+        else if (Input.GetKeyDown(KeyCode.Alpha2) && elimdekiSilahlar[1].activeInHierarchy == false)
+        {
+            //bedendekiSilahlar[0].SetActive(false);
+
+            //bedendekiSilahlar[1].SetActive(true);
+
+            GameObject obje = PhotonNetwork.Instantiate(prefabName: "Gun", position: hand.transform.position, hand.transform.rotation, group: 0, data: null);
+            obje.transform.parent = hand.transform;
+
+            bedendekiSilahlar[1] = obje;
+
+            if (bedendekiSilahlar[0] != null)
+            {
+                Destroy(bedendekiSilahlar[0]);
+            }
+
+        }
     }
 
     void Hareket()

@@ -51,10 +51,10 @@ public class PlayerController : MonoBehaviourPunCallbacks
     {
         view = GetComponent<PhotonView>();
         saglik = 100;
-        slider = GameManager.instance.slider;
-        deadPanel = GameManager.instance.deadPanel;
-        yenidenCanlanmaText = GameManager.instance.yenidenDogmaText;
-        elimdekiSilahlar = GameManager.instance.elimdekiSilahlar;
+        slider = GameManagerMain.instance.slider;
+        deadPanel = GameManagerMain.instance.deadPanel;
+        yenidenCanlanmaText = GameManagerMain.instance.yenidenDogmaText;
+        elimdekiSilahlar = GameManagerMain.instance.elimdekiSilahlar;
 
         if (!view.IsMine)
         {
@@ -235,13 +235,13 @@ public class PlayerController : MonoBehaviourPunCallbacks
             {
                 deadPanel.SetActive(true);
 
-                for (int i = 0; i < GameManager.instance.elimdekiSilahlar.Length; i++)
+                for (int i = 0; i < GameManagerMain.instance.elimdekiSilahlar.Length; i++)
                 {
-                    GameManager.instance.elimdekiSilahlar[i].GetComponent<Weapon>().toplamMermiSayisi = GameManager.instance.elimdekiSilahlar[i].GetComponent<Weapon>().maksimumMermiSayisi;
-                    GameManager.instance.elimdekiSilahlar[i].GetComponent<Weapon>().toplamMermiText.text = GameManager.instance.elimdekiSilahlar[i].GetComponent<Weapon>().maksimumMermiSayisi.ToString();
+                    GameManagerMain.instance.elimdekiSilahlar[i].GetComponent<Weapon>().toplamMermiSayisi = GameManagerMain.instance.elimdekiSilahlar[i].GetComponent<Weapon>().maksimumMermiSayisi;
+                    GameManagerMain.instance.elimdekiSilahlar[i].GetComponent<Weapon>().toplamMermiText.text = GameManagerMain.instance.elimdekiSilahlar[i].GetComponent<Weapon>().maksimumMermiSayisi.ToString();
 
-                    GameManager.instance.elimdekiSilahlar[i].GetComponent<Weapon>().sarjorKapasitesi = GameManager.instance.elimdekiSilahlar[i].GetComponent<Weapon>().maksimumSarjorSayisi;
-                    GameManager.instance.elimdekiSilahlar[i].GetComponent<Weapon>().kalanMermiText.text = GameManager.instance.elimdekiSilahlar[i].GetComponent<Weapon>().maksimumSarjorSayisi.ToString();
+                    GameManagerMain.instance.elimdekiSilahlar[i].GetComponent<Weapon>().sarjorKapasitesi = GameManagerMain.instance.elimdekiSilahlar[i].GetComponent<Weapon>().maksimumSarjorSayisi;
+                    GameManagerMain.instance.elimdekiSilahlar[i].GetComponent<Weapon>().kalanMermiText.text = GameManagerMain.instance.elimdekiSilahlar[i].GetComponent<Weapon>().maksimumSarjorSayisi.ToString();
                 }
             }
         }

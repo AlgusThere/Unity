@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\KursFPS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{11FE4586-5823-79C4-5577-4CCBB879F94D}|Assembly-CSharp.csproj|C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\KursFPS\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11FE4586-5823-79C4-5577-4CCBB879F94D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{11FE4586-5823-79C4-5577-4CCBB879F94D}|Assembly-CSharp.csproj|c:\\users\\pc\\documents\\github projects\\unity\\kursfps\\assets\\scripts\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11FE4586-5823-79C4-5577-4CCBB879F94D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11FE4586-5823-79C4-5577-4CCBB879F94D}|Assembly-CSharp.csproj|C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\KursFPS\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11FE4586-5823-79C4-5577-4CCBB879F94D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{11FE4586-5823-79C4-5577-4CCBB879F94D}|Assembly-CSharp.csproj|C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\KursFPS\\assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11FE4586-5823-79C4-5577-4CCBB879F94D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11FE4586-5823-79C4-5577-4CCBB879F94D}|Assembly-CSharp.csproj|c:\\users\\pc\\documents\\github projects\\unity\\kursfps\\assets\\scripts\\particledestroy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11FE4586-5823-79C4-5577-4CCBB879F94D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\particledestroy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{11FE4586-5823-79C4-5577-4CCBB879F94D}|Assembly-CSharp.csproj|C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\KursFPS\\assets\\scripts\\onlines.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{11FE4586-5823-79C4-5577-4CCBB879F94D}|Assembly-CSharp.csproj|C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\KursFPS\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{11FE4586-5823-79C4-5577-4CCBB879F94D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{11FE4586-5823-79C4-5577-4CCBB879F94D}|Assembly-CSharp.csproj|C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\KursFPS\\assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{11FE4586-5823-79C4-5577-4CCBB879F94D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{11FE4586-5823-79C4-5577-4CCBB879F94D}|Assembly-CSharp.csproj|C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\KursFPS\\assets\\scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,11 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
+              "Title": "ParticleDestroy.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\KursFPS\\Assets\\Scripts\\ParticleDestroy.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ParticleDestroy.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\KursFPS\\Assets\\Scripts\\ParticleDestroy.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ParticleDestroy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T19:55:00.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Bullet.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\KursFPS\\Assets\\Scripts\\Bullet.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Bullet.cs",
@@ -50,20 +67,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Weapon.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\KursFPS\\Assets\\Scripts\\Weapon.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Weapon.cs",
               "ToolTip": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\KursFPS\\Assets\\Scripts\\Weapon.cs",
               "RelativeToolTip": "Assets\\Scripts\\Weapon.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAAG4AAABCAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAE0AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-14T16:57:20.292Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Onlines.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\KursFPS\\Assets\\Scripts\\Onlines.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Onlines.cs",
@@ -71,12 +88,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Onlines.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAAABUAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T11:58:15.886Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-13T11:58:15.886Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\KursFPS\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
@@ -84,30 +100,30 @@
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-13T11:51:46.533Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-13T11:51:46.533Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "CameraController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\KursFPS\\Assets\\Scripts\\CameraController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraController.cs",
               "ToolTip": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\KursFPS\\Assets\\Scripts\\CameraController.cs",
               "RelativeToolTip": "Assets\\Scripts\\CameraController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAjwC8AAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T18:33:49.271Z"
+              "WhenOpened": "2024-12-12T18:33:49.271Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\KursFPS\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\KursFPS\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAK0AAAAAAAAAAAAWwL4AAAC8AAAAAAAAAA==",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAAAIgAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-11T15:29:09.824Z",
               "EditorCaption": ""

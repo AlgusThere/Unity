@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RollABall\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC91BC3-4149-E60C-78E2-62E43ACBDC4D}|Assembly-CSharp.csproj|c:\\users\\pc\\documents\\github projects\\unity\\rollaball\\assets\\scripts\\topkontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC91BC3-4149-E60C-78E2-62E43ACBDC4D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\topkontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC91BC3-4149-E60C-78E2-62E43ACBDC4D}|Assembly-CSharp.csproj|C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RollABall\\assets\\scripts\\cameracontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC91BC3-4149-E60C-78E2-62E43ACBDC4D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameracontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC91BC3-4149-E60C-78E2-62E43ACBDC4D}|Assembly-CSharp.csproj|C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RollABall\\assets\\scripts\\objekontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC91BC3-4149-E60C-78E2-62E43ACBDC4D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objekontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ObjeKontrol.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RollABall\\Assets\\Scripts\\ObjeKontrol.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ObjeKontrol.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RollABall\\Assets\\Scripts\\ObjeKontrol.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ObjeKontrol.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T09:11:32.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CameraControl.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RollABall\\Assets\\Scripts\\CameraControl.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraControl.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RollABall\\Assets\\Scripts\\CameraControl.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T08:45:32.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TopKontrol.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RollABall\\Assets\\Scripts\\TopKontrol.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TopKontrol.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RollABall\\Assets\\Scripts\\TopKontrol.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TopKontrol.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T07:34:34.184Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

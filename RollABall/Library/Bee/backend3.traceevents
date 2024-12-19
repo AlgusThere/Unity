@@ -1,0 +1,423 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1734602852045543, "dur":21925, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1734602852067471, "dur":90, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1734602852067591, "dur":224, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1734602852067831, "dur":2275, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1734602852070107, "dur":593279, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1734602852663387, "dur":273, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1734602852663785, "dur":1157, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1734602852067962, "dur":2158, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1734602852070124, "dur":463, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1734602852070588, "dur":432, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1734602852071020, "dur":445, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1734602852071465, "dur":4671, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1734602852076139, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1734602852076329, "dur":4761, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1734602852081139, "dur":76064, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734602852081092, "dur":76112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734602852157211, "dur":784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734602852158028, "dur":36752, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AMDModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734602852157998, "dur":36784, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.AMDModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734602852194796, "dur":1047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.AMDModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734602852195874, "dur":30705, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734602852195846, "dur":30734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734602852226592, "dur":1043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734602852227657, "dur":50832, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734602852227637, "dur":50854, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734602852278526, "dur":797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734602852279347, "dur":154507, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734602852279327, "dur":154528, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734602852433867, "dur":1329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734602852435220, "dur":19117, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734602852435198, "dur":19140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734602852454357, "dur":740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734602852455121, "dur":98595, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734602852455100, "dur":98618, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734602852553727, "dur":565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734602852554314, "dur":31351, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734602852554294, "dur":31373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734602852585677, "dur":1170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734602852586869, "dur":24152, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734602852586849, "dur":24173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734602852611034, "dur":772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1734602852611808, "dur":51818, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1734602852067960, "dur":2153, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1734602852071038, "dur":753, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.25f1/Editor/Data/il2cpp/build/deploy" }}
+,{ "pid":12345, "tid":2, "ts":1734602852071791, "dur":3270, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.25f1/Editor/Data/il2cpp/libil2cpp" }}
+,{ "pid":12345, "tid":2, "ts":1734602852075106, "dur":759, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.25f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono" }}
+,{ "pid":12345, "tid":2, "ts":1734602852075899, "dur":132, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.25f1/Editor/Data/Tools/BuildPipeline" }}
+,{ "pid":12345, "tid":2, "ts":1734602852076031, "dur":66, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Library/PlayerDataCache/Win642/Data" }}
+,{ "pid":12345, "tid":2, "ts":1734602852070116, "dur":6012, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1734602852076196, "dur":737, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker C:/Users/pc/Documents/GitHub Projects/Unity/RollABall/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
+,{ "pid":12345, "tid":2, "ts":1734602852076933, "dur":1133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1734602852081094, "dur":21839, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1734602852081075, "dur":21860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1734602852103461, "dur":1870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1734602852105350, "dur":102827, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1734602852105332, "dur":102847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1734602852208195, "dur":1766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1734602852209984, "dur":166280, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1734602852209964, "dur":166302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1734602852376285, "dur":4103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1734602852380429, "dur":27867, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1734602852380391, "dur":27906, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1734602852408309, "dur":706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1734602852409046, "dur":207174, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1734602852409017, "dur":207205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1734602852616236, "dur":743, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1734602852616981, "dur":46466, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1734602852068047, "dur":2092, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1734602852070142, "dur":492, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1734602852070634, "dur":427, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1734602852071061, "dur":355, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1734602852071416, "dur":4719, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1734602852076337, "dur":4739, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1734602852081129, "dur":62889, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1734602852081077, "dur":62943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1734602852144040, "dur":2774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1734602852146841, "dur":185319, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1734602852146818, "dur":185344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1734602852332178, "dur":1649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1734602852333896, "dur":57719, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1734602852333829, "dur":57788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1734602852391656, "dur":1021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1734602852392701, "dur":42120, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1734602852392680, "dur":42143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1734602852434833, "dur":1010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1734602852435866, "dur":27736, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1734602852435845, "dur":27759, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1734602852463618, "dur":728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1734602852464367, "dur":35310, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1734602852464349, "dur":35330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1734602852499760, "dur":745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1734602852500524, "dur":40598, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1734602852500506, "dur":40617, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1734602852541184, "dur":2689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":3, "ts":1734602852543897, "dur":50839, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1734602852543876, "dur":50861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1734602852594803, "dur":3186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1734602852598012, "dur":24050, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1734602852597992, "dur":24072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1734602852622123, "dur":918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1734602852623043, "dur":40375, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1734602852067993, "dur":2135, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1734602852070130, "dur":524, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1734602852070655, "dur":752, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1734602852071407, "dur":64, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1734602852071471, "dur":4663, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1734602852076319, "dur":4774, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1734602852081139, "dur":80111, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1734602852081094, "dur":80157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1734602852161263, "dur":1675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1734602852162962, "dur":55591, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1734602852162941, "dur":55614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1734602852218574, "dur":911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1734602852219512, "dur":99777, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1734602852219489, "dur":99802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1734602852319309, "dur":894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1734602852320228, "dur":72500, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1734602852320207, "dur":72522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1734602852392740, "dur":1121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1734602852393884, "dur":61416, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1734602852393864, "dur":61438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1734602852455311, "dur":881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1734602852456215, "dur":21159, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1734602852456195, "dur":21180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1734602852477385, "dur":1904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1734602852479311, "dur":25545, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1734602852479291, "dur":25567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1734602852504873, "dur":746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1734602852505641, "dur":19455, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1734602852505621, "dur":19477, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1734602852525110, "dur":689, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1734602852525822, "dur":59483, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1734602852525801, "dur":59506, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1734602852585389, "dur":1676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1734602852587085, "dur":50608, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1734602852587067, "dur":50628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1734602852637703, "dur":629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1734602852638334, "dur":25071, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1734602852068021, "dur":2113, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1734602852070136, "dur":477, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1734602852070614, "dur":424, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1734602852071039, "dur":446, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1734602852071485, "dur":4646, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1734602852076327, "dur":4753, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1734602852081124, "dur":21850, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1734602852081081, "dur":21894, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1734602852103539, "dur":1706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1734602852105269, "dur":240656, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1734602852105247, "dur":240680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1734602852345927, "dur":356, "ph":"X", "name": "CheckPristineOutputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1734602852346298, "dur":6923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1734602852353246, "dur":47095, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1734602852353223, "dur":47120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1734602852400357, "dur":3459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1734602852403843, "dur":76260, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1734602852403819, "dur":76285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1734602852480114, "dur":1047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1734602852481183, "dur":17814, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1734602852481162, "dur":17837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1734602852499014, "dur":854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1734602852499891, "dur":65262, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1734602852499870, "dur":65285, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1734602852565165, "dur":752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1734602852565940, "dur":19364, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1734602852565919, "dur":19386, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1734602852585391, "dur":1129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1734602852586547, "dur":54801, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1734602852586523, "dur":54826, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1734602852641361, "dur":797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1734602852642160, "dur":21238, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1734602852068069, "dur":2076, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1734602852070147, "dur":507, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1734602852070654, "dur":375, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1734602852071029, "dur":363, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1734602852071392, "dur":418, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1734602852071810, "dur":4338, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1734602852076341, "dur":4756, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1734602852081142, "dur":142688, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734602852081097, "dur":142735, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734602852223847, "dur":819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734602852224689, "dur":45253, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734602852224669, "dur":45275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734602852269955, "dur":1868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734602852271844, "dur":74434, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734602852271825, "dur":74454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734602852346296, "dur":3297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734602852349619, "dur":46898, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734602852349597, "dur":46921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734602852396527, "dur":703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734602852397251, "dur":22976, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734602852397232, "dur":22997, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734602852420244, "dur":701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734602852420967, "dur":60142, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734602852420948, "dur":60162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734602852481119, "dur":597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734602852481737, "dur":27968, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734602852481718, "dur":27988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734602852509719, "dur":639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734602852510380, "dur":57114, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734602852510360, "dur":57135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734602852567505, "dur":724, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734602852568253, "dur":17050, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734602852568232, "dur":17073, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734602852585327, "dur":1317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734602852586678, "dur":21377, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734602852586646, "dur":21411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734602852608081, "dur":1019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1734602852609102, "dur":54280, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1734602852068098, "dur":2052, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1734602852070153, "dur":464, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1734602852070618, "dur":338, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1734602852070956, "dur":366, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1734602852071322, "dur":462, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1734602852071784, "dur":4357, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1734602852076325, "dur":4754, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1734602852081099, "dur":76037, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734602852081080, "dur":76058, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734602852157154, "dur":1316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734602852158493, "dur":83601, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734602852158472, "dur":83624, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734602852242106, "dur":801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734602852242931, "dur":25395, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734602852242910, "dur":25418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734602852268340, "dur":2779, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734602852271143, "dur":22895, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734602852271122, "dur":22917, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734602852294056, "dur":713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734602852294792, "dur":65233, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734602852294772, "dur":65254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734602852360036, "dur":583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734602852360643, "dur":17077, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734602852360621, "dur":17101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734602852377734, "dur":864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734602852378623, "dur":26139, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734602852378601, "dur":26163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734602852404773, "dur":837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734602852405636, "dur":35184, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734602852405612, "dur":35210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734602852440837, "dur":877, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734602852441744, "dur":28079, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734602852441717, "dur":28108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734602852469835, "dur":1322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734602852471180, "dur":20658, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734602852471160, "dur":20680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734602852491857, "dur":1404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734602852493288, "dur":25484, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734602852493264, "dur":25510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734602852518788, "dur":1624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734602852520435, "dur":28639, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734602852520415, "dur":28660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734602852549086, "dur":1369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734602852550481, "dur":18416, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GraphicsStateCollectionSerializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734602852550458, "dur":18440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734602852568909, "dur":1621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734602852570558, "dur":37494, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734602852570536, "dur":37518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734602852608079, "dur":1092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1734602852609172, "dur":54209, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1734602852068121, "dur":2035, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1734602852070159, "dur":463, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1734602852070622, "dur":387, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1734602852071009, "dur":477, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1734602852071486, "dur":4646, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1734602852076133, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1734602852076323, "dur":4760, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1734602852081120, "dur":66495, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1734602852081083, "dur":66533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1734602852147628, "dur":819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1734602852148468, "dur":40339, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1734602852148449, "dur":40360, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1734602852188827, "dur":2081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1734602852190933, "dur":95370, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1734602852190911, "dur":95394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1734602852286322, "dur":1263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1734602852287620, "dur":156480, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1734602852287588, "dur":156513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1734602852444111, "dur":1568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1734602852445703, "dur":23628, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1734602852445681, "dur":23652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1734602852469403, "dur":1359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1734602852470784, "dur":78294, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1734602852470765, "dur":78314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1734602852549088, "dur":1595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1734602852550704, "dur":21164, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1734602852550684, "dur":21185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1734602852573054, "dur":1928, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1734602852571881, "dur":3110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1734602852575034, "dur":50935, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1734602852574993, "dur":50977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1734602852625982, "dur":687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1734602852626670, "dur":36773, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1734602852068145, "dur":2017, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1734602852070165, "dur":469, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1734602852070634, "dur":434, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1734602852071068, "dur":547, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1734602852071615, "dur":4525, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1734602852076144, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1734602852076332, "dur":4746, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1734602852081143, "dur":44181, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1734602852081088, "dur":44237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1734602852125334, "dur":1680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1734602852127034, "dur":195384, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1734602852127016, "dur":195403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1734602852322432, "dur":1330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1734602852323790, "dur":107804, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1734602852323765, "dur":107831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1734602852431614, "dur":874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1734602852432511, "dur":116090, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1734602852432491, "dur":116112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1734602852548610, "dur":214, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1734602852548829, "dur":1839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":9, "ts":1734602852550691, "dur":40668, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1734602852550670, "dur":40691, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1734602852591376, "dur":820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1734602852592221, "dur":63815, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1734602852592200, "dur":63838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1734602852656055, "dur":997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1734602852657054, "dur":6338, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1734602852068173, "dur":1996, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1734602852070171, "dur":458, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1734602852070630, "dur":429, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1734602852071060, "dur":549, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1734602852071610, "dur":4520, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1734602852076200, "dur":549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1734602852076789, "dur":4297, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1734602852081133, "dur":89344, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1734602852081087, "dur":89391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1734602852170509, "dur":1253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1734602852171786, "dur":24190, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1734602852171765, "dur":24213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1734602852195987, "dur":1723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1734602852197731, "dur":41525, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1734602852197712, "dur":41546, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1734602852239275, "dur":2104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1734602852241404, "dur":24170, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1734602852241382, "dur":24194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1734602852265592, "dur":1067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1734602852266684, "dur":85945, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1734602852266663, "dur":85967, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1734602852352646, "dur":1171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1734602852353840, "dur":89474, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":10, "ts":1734602852353819, "dur":89496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":10, "ts":1734602852443327, "dur":1668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":10, "ts":1734602852445019, "dur":30509, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1734602852444997, "dur":30532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1734602852475542, "dur":652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1734602852476215, "dur":64581, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1734602852476196, "dur":64602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1734602852540816, "dur":3112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1734602852543975, "dur":50585, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1734602852543942, "dur":50620, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1734602852594571, "dur":4077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1734602852598671, "dur":63772, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1734602852598651, "dur":63794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1734602852662457, "dur":855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":11, "ts":1734602852068202, "dur":1975, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1734602852070180, "dur":471, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1734602852070651, "dur":439, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1734602852071090, "dur":560, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1734602852071650, "dur":4488, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1734602852076323, "dur":4759, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1734602852081130, "dur":43956, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1734602852081082, "dur":44006, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1734602852125155, "dur":1584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1734602852126768, "dur":160841, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1734602852126742, "dur":160868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1734602852287619, "dur":1279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":11, "ts":1734602852288928, "dur":113690, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1734602852288900, "dur":113719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1734602852402630, "dur":781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1734602852403458, "dur":55348, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1734602852403414, "dur":55393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1734602852458820, "dur":1013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1734602852459858, "dur":104210, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1734602852459835, "dur":104235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1734602852564144, "dur":860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1734602852565033, "dur":21564, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1734602852565008, "dur":21591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1734602852586608, "dur":611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1734602852587238, "dur":24517, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1734602852587221, "dur":24536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1734602852611767, "dur":1370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1734602852613139, "dur":50320, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1734602852068219, "dur":1966, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1734602852070185, "dur":477, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1734602852070663, "dur":422, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1734602852071085, "dur":553, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1734602852071638, "dur":4514, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1734602852076334, "dur":4740, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1734602852081121, "dur":92207, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1734602852081077, "dur":92252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1734602852173340, "dur":1745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1734602852175109, "dur":20411, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1734602852175087, "dur":20435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1734602852195534, "dur":1012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1734602852196569, "dur":129329, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\System.Data.dll" }}
+,{ "pid":12345, "tid":12, "ts":1734602852196548, "dur":129352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":12, "ts":1734602852325912, "dur":1232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":12, "ts":1734602852327181, "dur":31954, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1734602852327148, "dur":31989, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1734602852359151, "dur":751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1734602852359927, "dur":35869, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1734602852359905, "dur":35893, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1734602852395809, "dur":635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1734602852396469, "dur":20241, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1734602852396447, "dur":20265, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1734602852416731, "dur":840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1734602852417594, "dur":133810, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1734602852417574, "dur":133831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1734602852551414, "dur":2159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1734602852553594, "dur":18400, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1734602852553575, "dur":18420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1734602852572005, "dur":973, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1734602852573000, "dur":21420, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":12, "ts":1734602852572980, "dur":21441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":12, "ts":1734602852594433, "dur":856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":12, "ts":1734602852595314, "dur":39416, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\ManagedStripped\\UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1734602852595292, "dur":39440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1734602852634748, "dur":891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"Roll A Ball/Roll A Ball_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1734602852635641, "dur":27769, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1734602852667215, "dur":642, "ph":"X", "name": "ProfilerWriteOutput" }
+,

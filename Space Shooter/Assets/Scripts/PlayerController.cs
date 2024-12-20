@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
 {
 
     Rigidbody physic;
+    AudioSource audioPlayer;
 
     [SerializeField] int speed;
     [SerializeField] int tilt;
@@ -26,17 +27,19 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         physic = GetComponent<Rigidbody>();
+        audioPlayer = GetComponent<AudioSource>();
     }
 
     void Update()
     {
-        Debug.Log(Time.time);
+        //Debug.Log(Time.time);
 
         if(Input.GetButton("Fire1") && Time.time > nextFire)
         {
             nextFire = Time.time + fireRate;
 
             Instantiate(shot, shotSpawn.transform.position, shotSpawn.transform.rotation);
+            audioPlayer.Play();
         }
     }
 

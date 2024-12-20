@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\Space Shooter\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|c:\\users\\pc\\documents\\github projects\\unity\\space shooter\\assets\\scripts\\destroybyboundary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\destroybyboundary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\Space Shooter\\assets\\scripts\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\Space Shooter\\assets\\scripts\\destroybycontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\destroybycontact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|c:\\users\\pc\\documents\\github projects\\unity\\space shooter\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\Space Shooter\\assets\\scripts\\destroybytime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\destroybytime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\Space Shooter\\assets\\scripts\\mover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\Space Shooter\\assets\\scripts\\randomrotater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\randomrotater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\Space Shooter\\assets\\scripts\\destroybyboundary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28FCF307-BCEB-DF00-C466-08C29A16E02D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\destroybyboundary.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +38,61 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DestroyByTime.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\Space Shooter\\Assets\\Scripts\\DestroyByTime.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DestroyByTime.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\Space Shooter\\Assets\\Scripts\\DestroyByTime.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DestroyByTime.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T19:26:54.476Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "GameController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\Space Shooter\\Assets\\Scripts\\GameController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameController.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\Space Shooter\\Assets\\Scripts\\GameController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T19:03:05.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DestroyByContact.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\Space Shooter\\Assets\\Scripts\\DestroyByContact.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DestroyByContact.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\Space Shooter\\Assets\\Scripts\\DestroyByContact.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DestroyByContact.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T10:44:52.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RandomRotater.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\Space Shooter\\Assets\\Scripts\\RandomRotater.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RandomRotater.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\Space Shooter\\Assets\\Scripts\\RandomRotater.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RandomRotater.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T10:33:21.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "DestroyByBoundary.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\Space Shooter\\Assets\\Scripts\\DestroyByBoundary.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\DestroyByBoundary.cs",
@@ -34,30 +100,29 @@
               "RelativeToolTip": "Assets\\Scripts\\DestroyByBoundary.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T22:50:44.771Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T22:50:44.771Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Mover.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\Space Shooter\\Assets\\Scripts\\Mover.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Mover.cs",
               "ToolTip": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\Space Shooter\\Assets\\Scripts\\Mover.cs",
               "RelativeToolTip": "Assets\\Scripts\\Mover.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-19T22:29:13.5Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\Space Shooter\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\Space Shooter\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwCQAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-19T21:48:29.586Z",
               "EditorCaption": ""

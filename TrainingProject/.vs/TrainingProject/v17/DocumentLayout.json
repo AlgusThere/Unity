@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\TrainingProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{29AAA052-B399-E870-EEF0-364EDC96DCA6}|Assembly-CSharp.csproj|C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\TrainingProject\\assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29AAA052-B399-E870-EEF0-364EDC96DCA6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{29AAA052-B399-E870-EEF0-364EDC96DCA6}|Assembly-CSharp.csproj|c:\\users\\pc\\documents\\github projects\\unity\\trainingproject\\assets\\scripts\\controllerdeneme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29AAA052-B399-E870-EEF0-364EDC96DCA6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controllerdeneme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29AAA052-B399-E870-EEF0-364EDC96DCA6}|Assembly-CSharp.csproj|c:\\users\\pc\\documents\\github projects\\unity\\trainingproject\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{29AAA052-B399-E870-EEF0-364EDC96DCA6}|Assembly-CSharp.csproj|C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\TrainingProject\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29AAA052-B399-E870-EEF0-364EDC96DCA6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29AAA052-B399-E870-EEF0-364EDC96DCA6}|Assembly-CSharp.csproj|C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\TrainingProject\\assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29AAA052-B399-E870-EEF0-364EDC96DCA6}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,24 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ControllerDeneme.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\TrainingProject\\Assets\\Scripts\\ControllerDeneme.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ControllerDeneme.cs",
               "ToolTip": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\TrainingProject\\Assets\\Scripts\\ControllerDeneme.cs",
               "RelativeToolTip": "Assets\\Scripts\\ControllerDeneme.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAxwC4AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-21T12:09:36.637Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\TrainingProject\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
@@ -47,18 +47,17 @@
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAqwDIAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T11:18:13.507Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-21T11:18:13.507Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "CameraController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\TrainingProject\\Assets\\Scripts\\CameraController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraController.cs",
               "ToolTip": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\TrainingProject\\Assets\\Scripts\\CameraController.cs",
               "RelativeToolTip": "Assets\\Scripts\\CameraController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-21T08:00:46.78Z",
               "EditorCaption": ""

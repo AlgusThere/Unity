@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\pc\\documents\\github projects\\unity\\rpg project\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|c:\\users\\pc\\documents\\github projects\\unity\\rpg project\\assets\\scripts\\movement\\mover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movement\\mover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\assets\\scripts\\mover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|c:\\users\\pc\\documents\\github projects\\unity\\rpg project\\assets\\scripts\\controller\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controller\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\assets\\scripts\\followcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\followcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|c:\\users\\pc\\documents\\github projects\\unity\\rpg project\\assets\\scripts\\core\\followcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\followcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,39 +27,41 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
-              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T12:46:28.995Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Mover.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\Assets\\Scripts\\Mover.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Mover.cs",
-              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\Assets\\Scripts\\Mover.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Mover.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwBoAAAA1AAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\Assets\\Scripts\\Movement\\Mover.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Movement\\Mover.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\Assets\\Scripts\\Movement\\Mover.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Movement\\Mover.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAiwBcAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T11:37:04.473Z"
+              "WhenOpened": "2024-12-24T12:59:07.706Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "FollowCamera.cs",
-              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\Assets\\Scripts\\FollowCamera.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\FollowCamera.cs",
-              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\Assets\\Scripts\\FollowCamera.cs",
-              "RelativeToolTip": "Assets\\Scripts\\FollowCamera.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\Assets\\Scripts\\Core\\FollowCamera.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\FollowCamera.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\Assets\\Scripts\\Core\\FollowCamera.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Core\\FollowCamera.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-23T12:53:10.007Z"
+              "WhenOpened": "2024-12-24T12:58:42.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\Assets\\Scripts\\Controller\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Controller\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\Assets\\Scripts\\Controller\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Controller\\PlayerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T12:56:31.441Z",
+              "EditorCaption": ""
             }
           ]
         }

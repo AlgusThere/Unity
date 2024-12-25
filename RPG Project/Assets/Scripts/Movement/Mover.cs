@@ -1,3 +1,5 @@
+using RPG.Combat;
+using RPG.Core;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -24,9 +26,23 @@ namespace RPG.Movement
             UpdateAnimator();
         }
 
+        public void StartMoveAction(Vector3 hit)
+        {
+            GetComponent<ActionScheduler>().StartAciton(this);
+            GetComponent<Fighter>().Cancel();
+            GetComponent<NavMeshAgent>().destination = hit;
+            GetComponent<NavMeshAgent>().isStopped = false;
+        }
+
         public void MoveTo(Vector3 hit)
         {
             GetComponent<NavMeshAgent>().destination = hit;
+            GetComponent<NavMeshAgent>().isStopped = false;
+        }
+
+        public void Stop()
+        {
+            GetComponent<NavMeshAgent>().isStopped = true;
         }
 
         private void UpdateAnimator()

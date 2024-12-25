@@ -6,9 +6,9 @@ namespace RPG.Core
 {
     public class ActionScheduler : MonoBehaviour
     {
-        MonoBehaviour currentAction;
+        IAction currentAction;
 
-        public void StartAciton(MonoBehaviour action)
+        public void StartAciton(IAction action)
         {
             if(currentAction == action)
             {
@@ -17,7 +17,8 @@ namespace RPG.Core
 
             if(currentAction != null)
             {
-                Debug.Log("Ýptal edildi." + currentAction);
+                //Debug.Log("Ýptal edildi." + currentAction);
+                currentAction.Cancel();
             }
 
 

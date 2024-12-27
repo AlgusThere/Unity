@@ -13,8 +13,19 @@ namespace RPG.Movement
         //[SerializeField] private Transform target;
         //Ray lastRay;
 
+        NavMeshAgent navMeshAgent;
+        Health health;
+
+        private void Start()
+        {
+            navMeshAgent = GetComponent<NavMeshAgent>();
+            health = GetComponent<Health>();
+        }
+
         void Update()
         {
+            navMeshAgent.enabled = !health.IsDead();
+            
             //if(Input.GetMouseButton(0))
             //{
             //    MoveToCursor();
@@ -30,24 +41,24 @@ namespace RPG.Movement
         {
             GetComponent<ActionScheduler>().StartAciton(this);
             GetComponent<Fighter>().Cancel();
-            GetComponent<NavMeshAgent>().destination = hit;
-            GetComponent<NavMeshAgent>().isStopped = false;
+            navMeshAgent.destination = hit;
+            navMeshAgent.isStopped = false;
         }
 
         public void MoveTo(Vector3 hit)
         {
-            GetComponent<NavMeshAgent>().destination = hit;
-            GetComponent<NavMeshAgent>().isStopped = false;
+            navMeshAgent.destination = hit;
+            navMeshAgent.isStopped = false;
         }
 
         public void Cancel()
         {
-            GetComponent<NavMeshAgent>().isStopped = true;
+            navMeshAgent.isStopped = true;
         }
 
         private void UpdateAnimator()
         {
-            Vector3 velocity = GetComponent<NavMeshAgent>().velocity;
+            Vector3 velocity = navMeshAgent.velocity;
             Vector3 localVelocity = transform.InverseTransformDirection(velocity);
             float speed = localVelocity.z;
             GetComponent<Animator>().SetFloat("forwardSpeed", speed);

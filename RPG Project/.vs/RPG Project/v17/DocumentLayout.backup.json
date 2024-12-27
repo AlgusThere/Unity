@@ -3,32 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|c:\\users\\pc\\documents\\github projects\\unity\\rpg project\\assets\\scripts\\combat\\fighter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combat\\fighter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\assets\\scripts\\combat\\combattarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combat\\combattarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\assets\\scripts\\movement\\mover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movement\\mover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|c:\\users\\pc\\documents\\github projects\\unity\\rpg project\\assets\\scripts\\controller\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controller\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\assets\\scripts\\controller\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controller\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\assets\\scripts\\combat\\combattarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combat\\combattarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|c:\\users\\pc\\documents\\github projects\\unity\\rpg project\\assets\\scripts\\combat\\fighter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combat\\fighter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\assets\\scripts\\combat\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combat\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\assets\\scripts\\core\\followcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\followcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\assets\\scripts\\core\\iaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\iaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\assets\\scripts\\core\\actionscheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\actionscheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|c:\\users\\pc\\documents\\github projects\\unity\\rpg project\\assets\\scripts\\core\\iaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\iaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\assets\\scripts\\core\\followcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\followcamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\assets\\scripts\\movement\\mover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movement\\mover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +46,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": "AIController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\Assets\\Scripts\\Controller\\AIController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Controller\\AIController.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\Assets\\Scripts\\Controller\\AIController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Controller\\AIController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAtwB0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T12:12:02.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Health.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\Assets\\Scripts\\Combat\\Health.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Combat\\Health.cs",
+              "ToolTip": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\Assets\\Scripts\\Combat\\Health.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Combat\\Health.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAD4vw8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T18:20:14.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "IAction.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\Assets\\Scripts\\Core\\IAction.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\IAction.cs",
@@ -50,44 +83,42 @@
               "RelativeToolTip": "Assets\\Scripts\\Core\\IAction.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T17:20:22.995Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T17:20:22.995Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "ActionScheduler.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\Assets\\Scripts\\Core\\ActionScheduler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\ActionScheduler.cs",
               "ToolTip": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\Assets\\Scripts\\Core\\ActionScheduler.cs",
               "RelativeToolTip": "Assets\\Scripts\\Core\\ActionScheduler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T13:05:27.103Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T13:05:27.103Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Fighter.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\Assets\\Scripts\\Combat\\Fighter.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Combat\\Fighter.cs",
               "ToolTip": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\Assets\\Scripts\\Combat\\Fighter.cs",
               "RelativeToolTip": "Assets\\Scripts\\Combat\\Fighter.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCUAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAQwEUAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-24T16:29:53.678Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "CombatTarget.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\Assets\\Scripts\\Combat\\CombatTarget.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Combat\\CombatTarget.cs",
               "ToolTip": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\Assets\\Scripts\\Combat\\CombatTarget.cs",
               "RelativeToolTip": "Assets\\Scripts\\Combat\\CombatTarget.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-24T17:14:53.037Z",
               "EditorCaption": ""
@@ -100,14 +131,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Controller\\PlayerController.cs",
               "ToolTip": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\Assets\\Scripts\\Controller\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Controller\\PlayerController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAFAAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACwAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-24T12:56:31.441Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "Mover.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\Assets\\Scripts\\Movement\\Mover.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Movement\\Mover.cs",
@@ -115,18 +146,17 @@
               "RelativeToolTip": "Assets\\Scripts\\Movement\\Mover.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAiwDAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T12:59:07.706Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-24T12:59:07.706Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "FollowCamera.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\Assets\\Scripts\\Core\\FollowCamera.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\FollowCamera.cs",
               "ToolTip": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\Assets\\Scripts\\Core\\FollowCamera.cs",
               "RelativeToolTip": "Assets\\Scripts\\Core\\FollowCamera.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-24T12:58:42.529Z"
             }

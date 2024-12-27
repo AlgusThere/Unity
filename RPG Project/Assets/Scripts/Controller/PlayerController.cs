@@ -1,4 +1,5 @@
 using RPG.Combat;
+using RPG.Core;
 using RPG.Movement;
 using System.Collections;
 using System.Collections.Generic;
@@ -9,8 +10,20 @@ namespace RPG.Controller
 {
     public class PlayerController : MonoBehaviour
     {
+        Health health;
+
+        private void Start()
+        {
+            health = GetComponent<Health>();
+        }
+
         void Update()
         {
+            if(health.IsDead() == true)
+            {
+                return;
+            }
+
             if(InteractWithCombat() == true)
             {
                 return;
@@ -39,6 +52,16 @@ namespace RPG.Controller
             foreach(RaycastHit hit in hits)
             {
                 CombatTarget target = hit.transform.GetComponent<CombatTarget>();
+
+                if(target == null)
+                {
+                    continue;
+                }
+
+                if(!GetComponent<Fighter>().CanAttack(target.gameObject))
+                {
+                    continue;
+                }
                 
                 if(target == null)
                 {
@@ -47,7 +70,7 @@ namespace RPG.Controller
 
                 if(Input.GetMouseButtonDown(0))
                 {
-                    GetComponent<Fighter>().Attack(target);                   
+                    GetComponent<Fighter>().Attack(target.gameObject);                   
                 }
                 return true;
 

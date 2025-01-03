@@ -7,8 +7,16 @@
       "RelativeMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controller\\aicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|c:\\users\\pc\\documents\\github projects\\unity\\rpg project\\assets\\scripts\\controller\\patrolpath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\assets\\scripts\\controller\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controller\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\assets\\scripts\\controller\\patrolpath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controller\\patrolpath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\assets\\scripts\\core\\iaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\iaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\assets\\scripts\\core\\actionscheduler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,20 +27,12 @@
       "RelativeMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\assets\\scripts\\core\\iaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\core\\iaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\assets\\scripts\\combat\\fighter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\combat\\fighter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\assets\\scripts\\movement\\mover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movement\\mover.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\assets\\scripts\\controller\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controller\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73F39681-6FA3-F19C-C611-FFFDEF6ADD1D}|Assembly-CSharp.csproj|C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\assets\\scripts\\combat\\combattarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,20 +54,20 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PatrolPath.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\Assets\\Scripts\\Controller\\PatrolPath.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Controller\\PatrolPath.cs",
               "ToolTip": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\Assets\\Scripts\\Controller\\PatrolPath.cs",
               "RelativeToolTip": "Assets\\Scripts\\Controller\\PatrolPath.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-28T08:35:05.12Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Health.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\Assets\\Scripts\\Core\\Health.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\Health.cs",
@@ -75,8 +75,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Core\\Health.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAswCUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-27T12:40:53.401Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-27T12:40:53.401Z"
             },
             {
               "$type": "Document",
@@ -86,14 +85,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Controller\\AIController.cs",
               "ToolTip": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\Assets\\Scripts\\Controller\\AIController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Controller\\AIController.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAAEUAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-27T12:12:02.987Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "IAction.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\Assets\\Scripts\\Core\\IAction.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\IAction.cs",
@@ -101,11 +100,12 @@
               "RelativeToolTip": "Assets\\Scripts\\Core\\IAction.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T17:20:22.995Z"
+              "WhenOpened": "2024-12-25T17:20:22.995Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ActionScheduler.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\Assets\\Scripts\\Core\\ActionScheduler.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Core\\ActionScheduler.cs",
@@ -113,12 +113,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Core\\ActionScheduler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T13:05:27.103Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-25T13:05:27.103Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Fighter.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\Assets\\Scripts\\Combat\\Fighter.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Combat\\Fighter.cs",
@@ -142,19 +141,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\Assets\\Scripts\\Controller\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Controller\\PlayerController.cs",
               "ToolTip": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\Assets\\Scripts\\Controller\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Controller\\PlayerController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwEYAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-24T12:56:31.441Z"
+              "WhenOpened": "2024-12-24T12:56:31.441Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Mover.cs",
               "DocumentMoniker": "C:\\Users\\pc\\Documents\\GitHub Projects\\Unity\\RPG Project\\Assets\\Scripts\\Movement\\Mover.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Movement\\Mover.cs",

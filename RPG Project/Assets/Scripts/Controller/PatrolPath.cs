@@ -20,7 +20,7 @@ namespace RPG.Controller
 
         public int GetNextIndex(int i)
         {
-            if(i + 1 == transform.childCount)
+            if (i + 1 == transform.childCount)
             {
                 return 0;
             }

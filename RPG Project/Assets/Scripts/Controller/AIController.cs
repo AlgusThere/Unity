@@ -13,7 +13,8 @@ namespace RPG.Controller
     {
         [SerializeField] float chaseDistance = 5f;
         [SerializeField] float suspictionTime = 5f;
-        [SerializeField] float wayPointTolerence = 1f;
+        [SerializeField] float wayPointTolerence = 1.1f;
+        [SerializeField] float wayPointLifeTime = 3f;
 
         [SerializeField] PatrolPath patrolPath;
 
@@ -24,6 +25,7 @@ namespace RPG.Controller
 
         Vector3 enemyLocation;
         float timeSinceLastSawPlayer;
+        float timeSinceArrivedWaypoint;
         int currentWayPointIndex = 0;
 
         void Start()
@@ -60,16 +62,22 @@ namespace RPG.Controller
                 {
                     if(AtWayPoint())
                     {
+                        timeSinceArrivedWaypoint = 0;
                         CycleWayPoint();
                     }
 
                     nextPosition = GetNextWayPoint();
+                    //Debug.Log(currentWayPointIndex);
                 }
                 //fighter.Cancel();
-                mover.StartMoveAction(nextPosition);
+                if(timeSinceArrivedWaypoint > wayPointLifeTime)
+                {
+                    mover.StartMoveAction(nextPosition);
+                }
             }
 
             timeSinceLastSawPlayer += Time.deltaTime;
+            timeSinceArrivedWaypoint += Time.deltaTime;
         }
 
         private Vector3 GetNextWayPoint()
